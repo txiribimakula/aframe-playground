@@ -28,7 +28,7 @@ function createHeart(){
     clone.setAttribute("position", randomPosition());
     clone.setAttribute('scale', '0.01 0.01 0.01');
   });
-  sceneEl.appendChild(clone)
+  // sceneEl.appendChild(clone)
 }
 
 for(let i=0 ; i<15; i++){
